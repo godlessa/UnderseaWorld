@@ -1,0 +1,149 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Sphere.587",
+            "rotation" : [
+                0,
+                0.8329036235809326,
+                0,
+                -0.5534180402755737
+            ],
+            "scale" : [
+                0.5750847458839417,
+                0.7629321217536926,
+                0.5750847458839417
+            ],
+            "translation" : [
+                -25.416240692138672,
+                8.860857009887695,
+                1.4951555728912354
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.638277530670166,
+                "roughnessFactor" : 0.23863635957241058
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere.587",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "photos_2015_09_18_fst_386jdtt4hxx",
+            "uri" : "photos_2015_09_18_fst_386jdtt4hxx.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 389822,
+            "max" : [
+                52.982967376708984,
+                14.323735237121582,
+                32.944732666015625
+            ],
+            "min" : [
+                -57.4317512512207,
+                -107.38060760498047,
+                -60.229923248291016
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 389822,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 389822,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 2008608,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 4677864,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4677864,
+            "byteOffset" : 4677864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3118576,
+            "byteOffset" : 9355728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8034432,
+            "byteOffset" : 12474304
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 20508736,
+            "uri" : "jellyfisAmazing.bin"
+        }
+    ]
+}
